@@ -1,17 +1,89 @@
-# katalopapp
+#  TNC Mobil — Katalog Uygulaması
 
-A new Flutter project.
+Flutter ile geliştirilmiş, ürünleri listeleyip detaylı incelemeyi ve sepet yönetimini sağlayan mobil katalog uygulaması.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+- Ana sayfa ile genel bakış
+- Ürün listesi görünümü
+- Ürün detay sayfası
+- Sepet yönetimi
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Kullanılan Teknolojiler
+
+| Teknoloji | Versiyon |
+|-----------|----------|
+| Flutter   | ^3.11.0  |
+| Dart      | Flutter SDK ile birlikte |
+| cupertino_icons | ^1.0.8 |
+
+---
+
+##  Proje Yapısı
+
+```
+lib/
+├── data/           # Veri kaynakları
+├── models/         # Veri modelleri
+├── screens/        # Uygulama ekranları
+│   ├── home_screen.dart
+│   ├── product_list_screen.dart
+│   ├── product_detail_screen.dart
+│   └── cart_screen.dart
+├── widgets/        # Yeniden kullanılabilir bileşenler
+└── main.dart
+```
+
+---
+
+##  Kurulum ve Çalıştırma
+
+### Gereksinimler
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) **3.11.0** veya üzeri
+- Dart SDK (Flutter ile birlikte gelir)
+- Android Studio / VS Code
+- Bağlı bir emülatör veya fiziksel cihaz
+
+### Adımlar
+
+1. **Repoyu klonlayın**
+
+```bash
+git clone https://github.com/cerensudefirat/TNC-mobil.git
+cd TNC-mobil
+```
+
+2. **Bağımlılıkları yükleyin**
+
+```bash
+flutter pub get
+```
+
+3. **Flutter kurulumunu doğrulayın**
+
+```bash
+flutter doctor
+```
+
+4. **Uygulamayı çalıştırın**
+
+```bash
+flutter run
+```
+
+
+---
+
+##  Desteklenen Platformlar
+
+- Android
+- iOS
+
+---
+
+
